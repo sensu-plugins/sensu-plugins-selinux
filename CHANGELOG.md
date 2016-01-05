@@ -5,6 +5,10 @@ This CHANGELOG follows the format listed at [Keep A Changelog](http://keepachang
 
 ## Unreleased
 
+## [0.0.4] - 2016-01-05
+### Fixed
+- fixed gem name in gemspec, no functional changes
+
 ## [0.0.3] - 2016-01-05
 ### Changed
 - rubocop update and cleanup
