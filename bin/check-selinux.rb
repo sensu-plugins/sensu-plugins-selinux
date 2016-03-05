@@ -50,7 +50,7 @@ class SELinuxCheck < Sensu::Plugin::Check::CLI
         ok 'SELinux is disabled'
       end
     else
-      if enforcing?(check)
+      if enforcing?(check) # rubocop:disable Style/IfInsideElse
         ok 'SELinux is being enforced'
       else
         critical 'SELinux is disabled'
