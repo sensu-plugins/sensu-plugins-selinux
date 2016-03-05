@@ -16,13 +16,15 @@ notifications:
     on_failure: always
 script:
 - bundle exec rake default
+- gem build sensu-plugins-selinux.gemspec
+- gem install sensu-plugins-selinux-*.gem
 deploy:
   provider: rubygems
   api_key:
-    secure: Hb8/EAt3w6NGuqBHtIgzDVC/8yrS9W7hz45lneWkqK3tUrtkI0xqetK2rx5N+g6r2dhRi44+IjnA4qOP1A0XEFf6D9Fr8WxSywRt0jSIqepEvDWq3UmVlYuJlUa/eF3wsJi9Nwvz7yB7uSaPGHZpMdE1mDM1/DiSyKmX3iupqGQ=
+    secure: dQ7EwSn1xeXqXjFQ/Zw20rfQhT19VDjUI1LJ65YcvlSBXUsqnAks9YbXIireAKZbjjL6cmrzKC+x9pcIlYGjcpLVwNwbq/Jq9bRyicJJuZ+QDJQY690udn76qnEdjra5WvLUMPx+Fjtdo3ASIqREEzpjJHItZ7sUbBmVrTrIwns=
   gem: sensu-plugins-selinux
   on:
-    tags: true
+    ags: true
     all_branches: true
     rvm: 1.9.3
     rvm: 2.0
