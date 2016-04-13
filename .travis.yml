@@ -24,7 +24,7 @@ deploy:
     secure: dQ7EwSn1xeXqXjFQ/Zw20rfQhT19VDjUI1LJ65YcvlSBXUsqnAks9YbXIireAKZbjjL6cmrzKC+x9pcIlYGjcpLVwNwbq/Jq9bRyicJJuZ+QDJQY690udn76qnEdjra5WvLUMPx+Fjtdo3ASIqREEzpjJHItZ7sUbBmVrTrIwns=
   gem: sensu-plugins-selinux
   on:
-    ags: true
+    tags: true
     all_branches: true
     rvm: 1.9.3
     rvm: 2.0
