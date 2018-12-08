@@ -56,8 +56,7 @@ class SELinuxCheck < Sensu::Plugin::Check::CLI
         critical 'SELinux is disabled'
       end
     end
-
-  rescue
+  rescue StandardError
     message 'Error while attempting to execute script'
     exit 1
   end
