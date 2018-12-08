@@ -9,6 +9,7 @@ This CHANGELOG follows the format listed [here](https://github.com/sensu-plugins
 
 ### Breaking Changes
 - removed < ruby 2.1 support which was pulled as part of security updates @jaredledvina
+- Update sensu-plugin to 3.0: https://github.com/sensu-plugins/sensu-plugin/blob/master/CHANGELOG.md#300---2018-12-04 @jaredledvina
 
 ## [1.0.1] - 2017-06-14
 ### Fixed
