@@ -1,4 +1,3 @@
-# encoding: utf-8
 module SensuPluginsSelinux
   # This defines the version of the gem
   module Version
