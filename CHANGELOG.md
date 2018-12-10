@@ -4,6 +4,11 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 This CHANGELOG follows the format listed [here](https://github.com/sensu-plugins/community/blob/master/HOW_WE_CHANGELOG.md)
 
 ## [Unreleased]
+
+## [2.0.1] - 2018-12-08
+### Changed
+- updated rubocop dependency to `~> 0.57.2` @jaredledvina
+
 ## [2.0.0] - 2018-12-08
 ### Security
 - updated rubocop dependency to `~> 0.51.0` per: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-8418. @jaredledvina
@@ -43,7 +48,8 @@ This CHANGELOG follows the format listed [here](https://github.com/sensu-plugins
 ### Added
 - initial release
 
-[Unreleased]: https://github.com/sensu-plugins/sensu-plugins-selinux/compare/2.0.0...HEAD
+[Unreleased]: https://github.com/sensu-plugins/sensu-plugins-selinux/compare/2.0.1...HEAD
+[2.0.1]: https://github.com/sensu-plugins/sensu-plugins-selinux/compare/2.0.2...2.0.1
 [2.0.0]: https://github.com/sensu-plugins/sensu-plugins-selinux/compare/1.0.1...2.0.0
 [1.0.1]: https://github.com/sensu-plugins/sensu-plugins-selinux/compare/1.0.0...1.0.1
 [1.0.0]: https://github.com/sensu-plugins/sensu-plugins-selinux/compare/0.0.4...1.0.0
